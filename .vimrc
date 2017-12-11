@@ -48,15 +48,15 @@ let g:pymode_rope_completion = 1
 let g:pymode_rope_completion_on_dot = 1
 let g:pymode_rope_rename_bind = '<C-S-r>'
 
-noremap <silent> <C-f> :NERDTreeToggle<CR>
-noremap <silent> <C-n> :tabnew<CR>
-noremap <silent> <C-Left> :tabp<CR>
-noremap <silent> <C-Right> :tabn<CR>
-noremap <silent> <C-z> zA
-noremap <silent> <C-l> :PymodeLintAuto<CR>
-noremap <silent> <C-_> <leader>c<Space>
-noremap <silent> <leader>q :q!<CR>
-noremap <silent> <leader>qa :qa!<CR>
-noremap <silent> <leader>d :Gdiff<CR>
-noremap <silent> <C-k> 5k
-noremap <silent> <C-j> 5j
+map <silent> <C-f> :NERDTreeToggle<CR>
+map <silent> <C-n> :tabnew<CR>
+map <silent> <C-Left> :tabp<CR>
+map <silent> <C-Right> :tabn<CR>
+map <silent> <C-z> zA
+map <silent> <C-l> :PymodeLintAuto<CR>
+map <silent> <C-_> <leader>c<Space>
+map <silent> <leader>q :q!<CR>
+map <silent> <leader>qa :qa!<CR>
+map <silent> <leader>d :Gdiff<CR>
+map <silent> <C-k> 5k
+map <silent> <C-j> 5j
