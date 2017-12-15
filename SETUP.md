@@ -16,7 +16,7 @@ Tested on Ubuntu, should be similar on other distros
     sudo apt-get update
     sudo apt-get install python3.6 python3.6-venv python3.6-dev
 
-# Compile VIM with python support
+## Compile vim with python support
     sudo apt-get remove --purge vim vim-runtime vim-gnome vim-tiny vim-gui-common
     sudo apt-get install liblua5.1-dev luajit libluajit-5.1 python-dev ruby-dev libperl-dev libncurses5-dev libatk1.0-dev libx11-dev libxpm-dev libxt-dev
     cd ~/ && git clone https://github.com/vim/vim && cd vim 
@@ -38,7 +38,6 @@ Tested on Ubuntu, should be similar on other distros
 
     make && sudo make install
 
-
-
-
-
+## Download vundle and install plugins in vim config
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    vim +PluginInstall +qall
