@@ -22,7 +22,7 @@ Tested on Ubuntu, should be similar on other distros
     cd ~/ && git clone https://github.com/vim/vim && cd vim 
     cd src && make distclean && cd ..
 
-    ./configure \
+    vi_cv_path_python3=/usr/bin/python3.6 ./configure \
     --enable-perlinterp \
     --enable-python3interp \
     --enable-rubyinterp \
