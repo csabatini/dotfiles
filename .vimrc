@@ -57,3 +57,5 @@ map <silent> <leader>qa :qa!<CR>
 map <silent> <leader>d :Gdiff<CR>
 map <silent> <C-k> 5k
 map <silent> <C-j> 5j
+imap jk <Esc>
+imap kj <Esc>
