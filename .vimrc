@@ -54,6 +54,7 @@ map <silent> <C-l> :PymodeLintAuto<CR>
 map <silent> <C-_> <leader>c<Space>
 map <silent> <leader>q :q!<CR>
 map <silent> <leader>qa :qa!<CR>
+map <silent> <leader>wq :wq<CR>
 map <silent> <leader>d :Gdiff<CR>
 map <silent> <C-k> 5k
 map <silent> <C-j> 5j
