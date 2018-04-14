@@ -16,4 +16,5 @@ alias p3='/usr/bin/python3.6'
 alias cenv='/usr/bin/python3.6 -m venv venv/'
 alias sa='source venv/bin/activate'
 alias da='deactivate'
+alias screen-kill="screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill"
 alias bench='ssh 192.168.0.110 -L 5002:localhost:5439 -L 5003:localhost:5432 -L 5000:localhost:3306 -fN && bash ~/Desktop/Bench/sqlworkbench.sh'
