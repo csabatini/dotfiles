@@ -111,6 +111,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
 printf "\e[?2004l"
+
 export EVERNOTE_DEV_TOKEN=""
+export TWITTER_CONSUMER_KEY=""
+export TWITTER_CONSUMER_SECRET=""
+export TWITTER_ACCESS_TOKEN=""
+export TWITTER_ACCESS_TOKEN_SECRET=""
 
