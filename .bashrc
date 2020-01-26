@@ -112,4 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 printf "\e[?2004l"
+export EVERNOTE_DEV_TOKEN=""
 
