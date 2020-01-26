@@ -19,3 +19,4 @@ alias da='deactivate'
 alias screen-kill="screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill"
 alias gn='geeknote'
 alias lt='ls -lt | more'
+alias rbp="ssh csabatini@192.168.1.100"
