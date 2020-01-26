@@ -119,6 +119,7 @@ printf "\e[?2004l"
 # eval "$(rbenv init -)"
 
 export EVERNOTE_DEV_TOKEN=""
+export ROBINHOOD_DEVICE_TOKEN=""
 export TWITTER_CONSUMER_KEY=""
 export TWITTER_CONSUMER_SECRET=""
 export TWITTER_ACCESS_TOKEN=""
