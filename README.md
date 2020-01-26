@@ -1,6 +1,4 @@
 # dotfiles 
 
-My dotfiles for bash, git, and vim with python support
+My dotfiles for bash, git, and vim
 
-## Screenshot
-![vim-ui-screenshot](http://i.imgur.com/mW9enHJ.png)
