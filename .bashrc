@@ -114,6 +114,10 @@ fi
 
 printf "\e[?2004l"
 
+# rbenv
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+
 export EVERNOTE_DEV_TOKEN=""
 export TWITTER_CONSUMER_KEY=""
 export TWITTER_CONSUMER_SECRET=""
