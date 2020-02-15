@@ -16,9 +16,9 @@ alias p3='/usr/bin/python3.6'
 alias cenv='/usr/bin/python3.6 -m venv venv/'
 alias sa='source venv/bin/activate'
 alias da='deactivate'
-alias screen-kill="screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill"
+alias screen-kill='screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill'
 alias lt='ls -lt | more'
-alias rbp="ssh csabatini@192.168.1.100"
-alias gn="geeknote"
-alias sync="gnsync --path . --notebook "
+alias rbp='ssh csabatini@192.168.1.100'
+alias gn='geeknote'
+alias sync='gnsync --path . --notebook '
 
