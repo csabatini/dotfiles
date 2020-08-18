@@ -21,5 +21,4 @@ alias lt='ls -lt | more'
 alias rbp='ssh csabatini@192.168.1.100'
 alias gn='geeknote'
 alias sync='gnsync --path . --notebook '
-alias gatech='docker run -it --mount type=bind,source="$(pwd)",target=/cs6200 dnatic09/omscs6200-enhanced:1.2'
-
+alias gatech='docker run -it --mount type=bind,source="$(pwd)",target=/cs6200 fsgeek/omscs6200:latest'
